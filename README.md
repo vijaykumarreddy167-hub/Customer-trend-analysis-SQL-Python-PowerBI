@@ -1,118 +1,12 @@
 Customer Behavior Data Analyst Portfolio Project
+Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-This project demonstrates a complete, end-to-end data analytics workflow designed to reflect real-world business analysis responsibilities. It covers every major stage of the analytics lifecycle — from raw data preparation and modeling to business insight generation, dashboard development, and reporting.
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-The objective of this project is to simulate a business-grade customer behavior analytics workflow and demonstrate how raw transactional data can be transformed into actionable business intelligence.
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-The project focuses on four major stages:
-
-✅ Data Preparation, Modeling & Exploratory Analysis (Python)
-
-Clean, transform, and prepare raw customer shopping behavior data for structured analysis.
-
-✅ Business Analysis (SQL)
-
-Simulate real-world business queries to analyze customer segments, loyalty behavior, spending patterns, and purchase drivers.
-
-✅ Visualization & Insights (Power BI)
-
-Build an interactive dashboard to uncover trends, highlight KPIs, and support data-driven decision-making.
-
-✅ Reporting & Business Recommendations
-
-Summarize findings in a professional project report and create a stakeholder-friendly presentation with actionable recommendations.
-
-🧩 Project Workflow
-
-This project follows a complete analytics workflow:
-
-Data Collection
-Data Cleaning & Transformation
-Exploratory Data Analysis
-Data Modeling
-SQL-Based Business Analysis
-Dashboard Development
-Insight Generation
-Reporting & Recommendations
-🛠️ Tools & Technologies Used
-Python – Data cleaning, preprocessing, and exploratory data analysis
-Pandas / NumPy – Data manipulation and transformation
-SQL – Business analysis and querying
-Power BI – Interactive dashboard creation and KPI visualization
-Jupyter Notebook – Analysis workflow and documentation
-MySQL / PostgreSQL / SQL Server – Database storage and querying
-📂 Project Structure
-customer-trends-data-analysis/
-│
-├── data/
-│   └── customer_shopping_data.csv
-│
-├── notebooks/
-│   └── Customer_Shopping_Behavior_Analysis.ipynb
-│
-├── sql/
-│   └── customer_behavior_sql_queries.sql
-│
-├── dashboard/
-│   └── customer_behavior_dashboard.pbix
-│
-├── reports/
-│   ├── project_report.pdf
-│   └── stakeholder_presentation.pdf
-│
-└── README.md
-🚀 How to Use This Project
-1. Clone the Repository
-git clone https://github.com/your-username/customer-trends-data-analysis.git
-cd customer-trends-data-analysis
-2. Open the Jupyter Notebook
-
-Open the notebook file:
-
-Customer_Shopping_Behavior_Analysis.ipynb
-
-This notebook includes:
-
-Data import
-Data exploration
-Data cleaning
-Feature engineering
-Exploratory data analysis
-SQL database connection setup
-3. Load Data into SQL
-Create a database in your preferred SQL environment
-Load the cleaned dataset from Python into MySQL / PostgreSQL / SQL Server
-Open the SQL script:
-customer_behavior_sql_queries.sql
-Run SQL queries to answer key business questions and extract insights
-4. Build the Power BI Dashboard
-
-Open the Power BI dashboard file:
-
-customer_behavior_dashboard.pbix
-
-Use it to create an interactive dashboard showcasing:
-
-Customer segmentation
-Revenue trends
-Purchase behavior
-Loyalty analysis
-Product/category performance
-5. Create Business Report
-
-Summarize your findings in a professional report covering:
-
-Business objective
-Methodology
-Key findings
-KPI summary
-Business recommendations
-6. Build Stakeholder Presentation
-
-Prepare a concise presentation deck to communicate:
-
-Executive summary
-Key insights
-Customer behavior trends
-Strategic recommendations
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+https://private-user-images.githubusercontent.com/72063042/500731798-8bbd5dc9-eb6c-40c1-8f19-c08b4107f654.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzc5NzM5MDEsIm5iZiI6MTc3Nzk3MzYwMSwicGF0aCI6Ii83MjA2MzA0Mi81MDA3MzE3OTgtOGJiZDVkYzktZWI2Yy00MGMxLThmMTktYzA4YjQxMDdmNjU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTA1VDA5MzMyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwYzI2ZjkxMDcxNzIzNmFjZDBkOTI1ODNlNTllZDliMDJhMWYxZjI4NjZlZDZmNTQ1OWNmNjRhZmY0YzM3MmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.5BRHAwzMj-hoKSFBtHvX7-UESQNTX9-DYPw2-7sXUHE
